@@ -9,7 +9,7 @@ public class SegundoSetTest {
         System.out.println("Esta es la prueba tres del segundo set");
     }
 
-    @Test
+    @Test(dependsOnMethods = {"pruebaTres"})
     public void pruebaCuatro(){
 
         System.out.println("Esta es la prueba cuatro del segundo set");
