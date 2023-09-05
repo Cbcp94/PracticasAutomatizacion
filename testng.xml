@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Cristhian Cordova/Desktop/Testing/Selenium-IntelliJ/Proyectos/SeleniumTestNGProject">
+        <classes>
+            <class name="anotacionestestng.AnotacionesBasicasTest">
+               <!-- <methods>
+                    <include name="pruebaUno"/>
+                    <include name="pruebaDos"/>
+                </methods> -->
+            </class>
+            <class name="anotacionestestng.SegundoSetTest">
+               <!-- <methods>
+                    <include name="pruebaTres"/>
+                    <include name="pruebaCuatro"/>
+                </methods> -->
+            </class>
+        </classes>
+    </test>
+</suite>
