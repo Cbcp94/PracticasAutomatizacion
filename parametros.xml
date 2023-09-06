@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="UserName" value="Support"/>
+    <parameter name="Password" value="asasas"/>
+    <parameter name="UserName" value="Administrador"/>
+    <parameter name="Password" value="123456"/>
+    <test thread-count="5" name="Casos de Prueba Anotaciones">
+        <classes>
+            <class name="anotacionestestng.AnotacionesBasicasTest"/>
+            <class name="anotacionestestng.SegundoSetTest" />
+        </classes>
+    </test> <!-- Prueba de anotraciones -->
+
+    <test name="Casos de Pruebas nuevos">
+        <classes>
+            <class name="anotacionestestng.TercerSet"/>
+        </classes>
+    </test> <!-- nuevo set de pruebas -->
+</suite>
