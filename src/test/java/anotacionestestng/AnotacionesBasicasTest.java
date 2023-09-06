@@ -44,9 +44,9 @@ public class AnotacionesBasicasTest {
         System.out.println("Este codigos se ejecutan despues de cada archivo incluido en el set de pruebas --& ");
     }
 
-    @Test
+    @Test(groups = {"funcional"})
     public void pruebaUno(){
-        System.out.println("Esta es la prueba uno");
+        System.out.println("Esta es la prueba uno y funcional");
     }
 
     @Test(dependsOnMethods = {"pruebaUno"})

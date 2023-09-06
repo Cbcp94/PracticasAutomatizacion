@@ -22,9 +22,9 @@ public class SegundoSetTest {
         System.out.println("Clic al Home");
     }
 
-    @Test
+    @Test(groups = {"funcional"})
     public void clicAlCarrito() {
-        System.out.println("clic al carrito");
+        System.out.println("clic al carrito y funcional");
     }
 
     @Test
