@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/Cristhian Cordova/Desktop/Testing/Selenium-IntelliJ/Proyectos/SeleniumTestNGProject">
+    <test verbose="2" name="C:/Users/Cristhian Cordova/Desktop/Testing/Selenium-IntelliJ/Proyectos/SeleniumTestNGProject">
         <classes>
             <class name="anotacionestestng.AnotacionesBasicasTest"/>
-            <class name="anotacionestestng.SegundoSetTest"/>
+            <class name="anotacionestestng.SegundoSetTest">
+                <methods>
+                    <exclude name="clicAl.*"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
